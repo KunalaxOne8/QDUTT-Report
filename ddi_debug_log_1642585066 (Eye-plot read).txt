@@ -1,0 +1,2660 @@
+INFO:ddi.DDILib:DDI Lib target config SM8250
+INFO:ddi.DDILib:parsing: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\DDI\ddi_protocol_config.xml
+DEBUG:ddi.FlashInterface:Port : Qualcomm HS-USB QDLoader 9008 (COM4)
+
+DEBUG:ddi.FlashInterface:4
+DEBUG:ddi.FlashInterface:Port : 
+INFO:ddi.FlashInterface:Wait until Device is connected....
+INFO:ddi.FlashInterface:device EDL/QDLoader port 4 is detected...
+INFO:ddi:
+INFO:ddi:----------  Start DDI command
+INFO:ddi:+ command     : Run DDI command
+INFO:ddi:+ test config : C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\test_config.json
+INFO:ddi:+ ddi protocol: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\DDI\ddi_protocol_config.xml
+INFO:ddi:+ meta        : None
+INFO:ddi:+ device prog : C:\Users\146688\Hello3\boot_images\QcomPkg\SocPkg\8250\Bin\LAA\RELEASE\prog_firehose_lite.elf
+INFO:ddi:+ eDL port    : COM4
+INFO:ddi:+
+INFO:ddi:-------------------------------------
+INFO:ddi:
+INFO:ddi:----------  Prepare for Connecting Device
+INFO:ddi:current working dir: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode:
+DEBUG:ddi.FlashInterface:Port : Qualcomm HS-USB QDLoader 9008 (COM4)
+
+DEBUG:ddi.FlashInterface:4
+DEBUG:ddi.FlashInterface:Port : 
+INFO:ddi.FlashInterface:Wait until Device is connected....
+INFO:ddi.FlashInterface:device EDL/QDLoader port 4 is detected...
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--nop', '--noprompt']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: Took       0.00000000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: Storage type set to value eMMC'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 1048576 larger than supported 16384'
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: Calling handler for NOP'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: Binary build date: Jan  5 2022 @ 10:46:14
+
+DEBUG:ddi.FlashInterface:'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: Chip serial num: 1004633579 (0x3be17deb)'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: Supported Functions (15):'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: program'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: read'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: nop'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: patch'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: setbootablestoragedrive'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: erase'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: power'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: firmwarewrite'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: getstorageinfo'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: benchmark'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: emmc'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: ufs'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: fixgpt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: getsha256digest'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: TARGET SAID: 'INFO: End of supported functions 15'
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: Got the PING response
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: Files used and their paths
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO:   1 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO:      _             (done)
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO:     | |                 
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO:   __| | ___  _ __   ___ 
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO:  / _` |/ _ \| '_ \ / _ \
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: | (_| | (_) | | | |  __/
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO:  \__,_|\___/|_| |_|\___|
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: {All Finished Successfully}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:46: INFO: Overall to target  0.078 seconds (0.00 Bps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt
+DEBUG:ddi.FlashInterface: Run command successfully
+INFO:ddi:
+INFO:ddi:----------  Read XBL_config partition
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=partition_table --start_sector=0 --lun=0 --num_sectors=40 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--convertprogram2read', '--sendimage=partition_table', '--start_sector=0', '--lun=0', '--num_sectors=40', '--noprompt', '--zlpawarehost=1', '--memoryname=ufs']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=partition_table --start_sector=0 --lun=0 --num_sectors=40 --noprompt --zlpawarehost=1 --memoryname=ufs 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Looking for file 'partition_table'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: WARNING: Couldn't find the file 'partition_table', returning NULL
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: WARNING: User specified --num_sectors=40 but file only has 40 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Took       0.00000000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: TARGET SAID: 'WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 1048576 larger than supported 16384'
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: In handleRead('partition_table')
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Looking for file 'partition_table'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: WARNING: Couldn't find the file 'partition_table', returning NULL
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: <read> (160.0KB) 40 sectors from location 0 FILE: 'partition_table'
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: TARGET SAID: 'INFO: Calling handler for read'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: ===================== SUCCESS =========================
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Files used and their paths
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO:   1 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO:   2 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\partition_table'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: NOTE: There were WARNINGS!! Repeated here, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:Couldn't find the file 'partition_table', returning NULL
+
+DEBUG:ddi.FlashInterface:User specified --num_sectors=40 but file only has 40 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Couldn't find the file 'partition_table', returning NULL
+
+DEBUG:ddi.FlashInterface:NOTE: There were WARNINGS!! Repeated above, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO:      _             (done)
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO:     | |                 
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO:   __| | ___  _ __   ___ 
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO:  / _` |/ _ \| '_ \ / _ \
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: | (_| | (_) | | | |  __/
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO:  \__,_|\___/|_| |_|\___|
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: {All Finished Successfully}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:47: INFO: Overall to target  0.078 seconds (2.00 MBps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=partition_table --start_sector=0 --lun=0 --num_sectors=40 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=partition_table --start_sector=0 --lun=0 --num_sectors=40 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=partition_table --start_sector=0 --lun=0 --num_sectors=40 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: Run command successfully
+INFO:ddi:original partition xbl_config saved at: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\partition_table
+DEBUG:ddi.FlashInterface:partition: xbl_config_a
+DEBUG:ddi.FlashInterface:filename: xbl_config.elf
+DEBUG:ddi.FlashInterface:start_sector: 902
+DEBUG:ddi.FlashInterface:num_sectors: 32
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=xbl_config.elf --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--convertprogram2read', '--sendimage=xbl_config.elf', '--start_sector=902', '--lun=1', '--num_sectors=32', '--noprompt', '--zlpawarehost=1', '--memoryname=ufs']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=xbl_config.elf --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: Looking for file 'xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: WARNING: Couldn't find the file 'xbl_config.elf', returning NULL
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: WARNING: User specified --num_sectors=32 but file only has 32 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: Took       0.00000000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: TARGET SAID: 'WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 1048576 larger than supported 16384'
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: In handleRead('xbl_config.elf')
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: Looking for file 'xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: WARNING: Couldn't find the file 'xbl_config.elf', returning NULL
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: <read> (128.0KB) 32 sectors from location 902 FILE: 'xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: TARGET SAID: 'INFO: Calling handler for read'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: ===================== SUCCESS =========================
+
+DEBUG:ddi.FlashInterface:15:07:48: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO: Files used and their paths
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO:   1 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO:   2 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO: NOTE: There were WARNINGS!! Repeated here, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:Couldn't find the file 'xbl_config.elf', returning NULL
+
+DEBUG:ddi.FlashInterface:User specified --num_sectors=32 but file only has 32 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Couldn't find the file 'xbl_config.elf', returning NULL
+
+DEBUG:ddi.FlashInterface:NOTE: There were WARNINGS!! Repeated above, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO:      _             (done)
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO:     | |                 
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO:   __| | ___  _ __   ___ 
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO:  / _` |/ _ \| '_ \ / _ \
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO: | (_| | (_) | | | |  __/
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO:  \__,_|\___/|_| |_|\___|
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO: {All Finished Successfully}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:49: INFO: Overall to target  0.078 seconds (1.60 MBps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=xbl_config.elf --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=xbl_config.elf --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=xbl_config.elf --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: Run command successfully
+INFO:ddi:original partition xbl_config saved at: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xbl_config.elf
+INFO:ddi:
+INFO:ddi:----------  Create new XBL_config partition
+DEBUG:ddi.DDILib:Param Name: DDI Version
+DEBUG:ddi.DDILib:Name: DDI Version
+DEBUG:ddi.DDILib:Type: uint32 (I)
+DEBUG:ddi.DDILib:Default: 0x00010000
+DEBUG:ddi.DDILib:Set Val: 65536
+DEBUG:ddi.DDILib:Param Name: Boot Location ID
+DEBUG:ddi.DDILib:Name: Boot Location ID
+DEBUG:ddi.DDILib:Type: uint8 (B)
+DEBUG:ddi.DDILib:Default: 0
+DEBUG:ddi.DDILib:Set Val: 0
+DEBUG:ddi.DDILib:Option Name: EDL
+DEBUG:ddi.DDILib:Option val: 0
+DEBUG:ddi.DDILib:Option Name: HLOS
+DEBUG:ddi.DDILib:Option val: 1
+DEBUG:ddi.DDILib:Param Name: Number of Commands
+DEBUG:ddi.DDILib:Name: Number of Commands
+DEBUG:ddi.DDILib:Type: uint32 (I)
+DEBUG:ddi.DDILib:Default: 0
+DEBUG:ddi.DDILib:Set Val: 1
+DEBUG:ddi.DDILib:Param Name: Padding
+DEBUG:ddi.DDILib:Name: Padding
+DEBUG:ddi.DDILib:Type: uint8 (B)
+DEBUG:ddi.DDILib:Default: 3
+DEBUG:ddi.DDILib:Set Val: 3
+DEBUG:ddi.DDILib:CommandID: 6
+DEBUG:ddi.DDILib:Name: Eye Plot
+DEBUG:ddi.DDILib:Type: uint64 (Q)
+DEBUG:ddi.DDILib:Set Val: 6
+DEBUG:ddi.DDILib:Name: Plot Type
+DEBUG:ddi.DDILib:Type: uint8 (B)
+DEBUG:ddi.DDILib:Default: 0
+DEBUG:ddi.DDILib:Set Val: 0
+DEBUG:ddi.DDILib:Option Name: Read
+DEBUG:ddi.DDILib:Option val: 0
+DEBUG:ddi.DDILib:Option Name: Write
+DEBUG:ddi.DDILib:Option val: 1
+DEBUG:ddi.DDILib:Name: frequency
+DEBUG:ddi.DDILib:Type: uint32 (I)
+DEBUG:ddi.DDILib:Default: 2092800
+DEBUG:ddi.DDILib:Set Val: 2736000
+DEBUG:ddi.DDILib:Name: x_step
+DEBUG:ddi.DDILib:Type: uint8 (B)
+DEBUG:ddi.DDILib:Default: 1
+DEBUG:ddi.DDILib:Set Val: 1
+DEBUG:ddi.DDILib:Name: y_step
+DEBUG:ddi.DDILib:Type: uint8 (B)
+DEBUG:ddi.DDILib:Default: 1
+DEBUG:ddi.DDILib:Set Val: 1
+DEBUG:ddi.DDILib:Name: Padding
+DEBUG:ddi.DDILib:Type: uint8 (B)
+DEBUG:ddi.DDILib:Default: 3
+DEBUG:ddi.DDILib:Set Val: 3
+DEBUG:ddi.DDILib:__get_xbl_config_tools, init
+INFO:ddi.DDILib:NOT COPY XBLConfig tools to: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xblconfig
+INFO:ddi.DDILib:reason: folder exist: True, force_copy: False
+INFO:ddi.DDILib:NOT COPY sectools to: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\sectools
+INFO:ddi.DDILib:reason: folder exist: True, force_copy: False
+DEBUG:ddi.DDILib:__get_xbl_config_tools, end
+DEBUG:ddi.DDILib:python GenXBLConfig.py -d C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xbl_config.elf -f ELF -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose
+INFO:ddi.DDILib: Running cmd: python GenXBLConfig.py -d C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xbl_config.elf -f ELF -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose
+DEBUG:ddi.DDILib:['python', 'GenXBLConfig.py', '-d', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\xbl_config.elf', '-f', 'ELF', '-o', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\decompose']
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:elf_gen.py: Disassembling elf.........
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:elf_gen.py: Disassembled elf info generated in:"C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose\disassembled_elf_info.json"
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:XBLconfig_metadata_generator.py: Parsing XBL config meta-data and disassembling XBL config items .........
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:Disassembled XBL Config Meta table.
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:-----------------------------------------------------XBL Config Meta Header-----------------------------------------------------
+
+DEBUG:ddi.DDILib:xbl_cfg_value     major_version     minor_version     cfg_item_entries_num     meta_data_size
+
+DEBUG:ddi.DDILib:         CFGL               0x1               0x1                      0x3               0x84
+
+DEBUG:ddi.DDILib:-----------------------------------------------------XBL Config Meta Entries----------------------------------------------------
+
+DEBUG:ddi.DDILib:attributes     offset_from_meta_start    item_size    config_name_len                config_name        align_bytes
+
+DEBUG:ddi.DDILib:       0x0                       0x84       0x972c               0x12         /pmic_settings.bin                0x6
+
+DEBUG:ddi.DDILib:       0x0                     0x97b0       0x5bf0               0x14       /6008_0100_1_dcb.bin                0x4
+
+DEBUG:ddi.DDILib:       0x0                     0xf3a0       0x5bf0               0x14       /6008_0200_1_dcb.bin                0x4
+
+DEBUG:ddi.DDILib:--------------------------------------------------------------------------------------------------------------------------------
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:XBLconfig_metadata_generator.py: Generated XBL config items and "C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose\create_xbl_config.json"
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:Disassembled XBL config items and .json can be found in directory:"C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose".
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:To create xbl_config.elf from disassembled items, please execute below command:
+
+DEBUG:ddi.DDILib:"python C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xblconfig/GenXBLConfig.py -i C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose\create_xbl_config.json -b C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose -f ELF  -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose\xbl_config --sectools_directory C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xblconfig\sectools"
+
+DEBUG:ddi.DDILib: popo1: python GenXBLConfig.py -d C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xbl_config.elf -f ELF -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose
+DEBUG:ddi.DDILib: popo2: python GenXBLConfig.py -d C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xbl_config.elf -f ELF -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose
+DEBUG:ddi.DDILib: popo3: python GenXBLConfig.py -d C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xbl_config.elf -f ELF -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose
+DEBUG:ddi.DDILib: Run command successfully
+DEBUG:ddi.DDILib:Matched bin to DDILib BIN_NAMES name:DDI_INPUT path:C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\DDI_INPUT.bin
+WARNING:ddi.DDILib:[WARNING] MC_PXI_PRE_TRAINING DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_RD DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_WR DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_RCW DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_WRLVL DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_CBT DCB sub-block not populated
+INFO:ddi.DDILib:[INFO] DCB _6008_0100_1_dcb.bin, CRC 0x5D6DC236, 896B free (22640/23536 used)
+WARNING:ddi.DDILib:[WARNING] MC_PXI_PRE_TRAINING DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_RD DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_WR DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_RCW DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_WRLVL DCB sub-block not populated
+WARNING:ddi.DDILib:[WARNING] MC_PXI_CBT DCB sub-block not populated
+INFO:ddi.DDILib:[INFO] DCB _6008_0200_1_dcb.bin, CRC 0xA0BF0884, 144B free (23392/23536 used)
+INFO:ddi.DDILib: Running cmd: python GenXBLConfig.py -i C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose\create_xbl_config.json -b C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose -f ELF -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\xbl_config --sectools_directory C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\sectools
+DEBUG:ddi.DDILib:['python', 'GenXBLConfig.py', '-i', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\decompose\\create_xbl_config.json', '-b', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\decompose', '-f', 'ELF', '-o', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\compose\\xbl_config', '--sectools_directory', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\sectools']
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:XBLconfig_metadata_generator.py: Generating XBL CFG meta-data.........
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:-----------------------------------------------------XBL Config Meta Header-----------------------------------------------------
+
+DEBUG:ddi.DDILib:xbl_cfg_value     major_version     minor_version     cfg_item_entries_num     meta_data_size
+
+DEBUG:ddi.DDILib:         CFGL               0x1               0x1                      0x3               0x84
+
+DEBUG:ddi.DDILib:-----------------------------------------------------XBL Config Meta Entries----------------------------------------------------
+
+DEBUG:ddi.DDILib:attributes     offset_from_meta_start    item_size    config_name_len                config_name        align_bytes
+
+DEBUG:ddi.DDILib:       0x0                       0x84       0x972c               0x12         /pmic_settings.bin                0x6
+
+DEBUG:ddi.DDILib:       0x0                     0x97b0       0x5bf0               0x14       /6008_0100_1_dcb.bin                0x4
+
+DEBUG:ddi.DDILib:       0x0                     0xf3a0       0x5bf0               0x14       /6008_0200_1_dcb.bin                0x4
+
+DEBUG:ddi.DDILib:--------------------------------------------------------------------------------------------------------------------------------
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:elf_gen.py: Generating elf.........
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:elf_gen.py: Generated elf "C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen\elf_files\create_cli\xbl_config.elf"
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:Logging to C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen\SecImage_log.txt
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:     SecImage v5.24 launched as: "C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\sectools/sectools.py secimage -i C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen/elf_files/create_cli/xbl_config.elf -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen -sa -g xbl_config -c C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\sectools/config/integration/secimagev3.xml --cfg_segment_hash_algorithm sha384 --cfg_soc_hw_version 0x60000000 --cfg_in_use_soc_hw_version 1 --cfg_soc_vers 0x6000 0x6001"
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:Config path is set to: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\sectools\config\integration\secimagev3.xml
+
+DEBUG:ddi.DDILib:WARNING: OEM ID is set to 0 for sign_id "xbl_config"
+
+DEBUG:ddi.DDILib:------------------------------------------------------
+
+DEBUG:ddi.DDILib:Processing 1/1: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen\elf_files\create_cli\xbl_config.elf
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:Performing OEM sign on image: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen\elf_files\create_cli\xbl_config.elf
+
+DEBUG:ddi.DDILib:Signed image is stored at C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen\default\xbl_config\xbl_config.elf
+
+DEBUG:ddi.DDILib:OEM signed image with RSAPSS
+
+DEBUG:ddi.DDILib:Image C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen\default\xbl_config\xbl_config.elf signature is valid
+
+DEBUG:ddi.DDILib:Image C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen\default\xbl_config\xbl_config.elf is not encrypted
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:Base Properties: 
+
+DEBUG:ddi.DDILib:| Integrity Check             | True  |
+
+DEBUG:ddi.DDILib:| Signed                      | True  |
+
+DEBUG:ddi.DDILib:| Encrypted                   | False |
+
+DEBUG:ddi.DDILib:| Size of signature           | 256   |
+
+DEBUG:ddi.DDILib:| Size of one cert            | 2048  |
+
+DEBUG:ddi.DDILib:| Num of certs in cert chain  | 3     |
+
+DEBUG:ddi.DDILib:| Number of root certs        | 1     |
+
+DEBUG:ddi.DDILib:| Maximum number of root certs| None  |
+
+DEBUG:ddi.DDILib:| Cert chain size             | 6144  |
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:ELF Properties: 
+
+DEBUG:ddi.DDILib:Header: 
+
+DEBUG:ddi.DDILib:| Magic                      | ELF                           |
+
+DEBUG:ddi.DDILib:| Class                      | ELF64                          |
+
+DEBUG:ddi.DDILib:| Data                       | 2's complement, little endian  |
+
+DEBUG:ddi.DDILib:| Version                    | 1 (Current)                    |
+
+DEBUG:ddi.DDILib:| OS/ABI                     | No extensions or unspecified   |
+
+DEBUG:ddi.DDILib:| ABI Version                | 0                              |
+
+DEBUG:ddi.DDILib:| Type                       | EXEC (Executable file)         |
+
+DEBUG:ddi.DDILib:| Machine                    | Advanced RISC Machines ARM     |
+
+DEBUG:ddi.DDILib:| Version                    | 0x1                            |
+
+DEBUG:ddi.DDILib:| Entry address              | 0x148d0000                     |
+
+DEBUG:ddi.DDILib:| Program headers offset     | 0x00000040                     |
+
+DEBUG:ddi.DDILib:| Section headers offset     | 0x00000000                     |
+
+DEBUG:ddi.DDILib:| Flags                      | 0x00000005                     |
+
+DEBUG:ddi.DDILib:| ELF header size            | 64                             |
+
+DEBUG:ddi.DDILib:| Program headers size       | 56                             |
+
+DEBUG:ddi.DDILib:| Number of program headers  | 4                              |
+
+DEBUG:ddi.DDILib:| Section headers size       | 0                              |
+
+DEBUG:ddi.DDILib:| Number of section headers  | 0                              |
+
+DEBUG:ddi.DDILib:| String table section index | 0                              |
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:Program Headers: 
+
+DEBUG:ddi.DDILib:| Num | Type | Offset | VirtAddr | PhysAddr | FileSize | MemSize | Flags | Align |
+
+DEBUG:ddi.DDILib:|-----|------|--------|----------|----------|----------|---------|-------|-------|
+
+DEBUG:ddi.DDILib:|  1  | LOAD |0x03000 |0x148d0000|0x148d0000|  0x0084  |  0x0084 |  RWE  | 0x1   |
+
+DEBUG:ddi.DDILib:|  2  | LOAD |0x03084 |0x148d0084|0x148d0084|  0x972c  |  0x972c |  RWE  | 0x1   |
+
+DEBUG:ddi.DDILib:|  3  | LOAD |0x0c7b0 |0x148d97b0|0x148d97b0|  0x5bf0  |  0x5bf0 |  RWE  | 0x1   |
+
+DEBUG:ddi.DDILib:|  4  | LOAD |0x123a0 |0x148df3a0|0x148df3a0|  0x5bf0  |  0x5bf0 |  RWE  | 0x1   |
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:Hash Segment Properties: 
+
+DEBUG:ddi.DDILib:| Header Size     | 168B  |
+
+DEBUG:ddi.DDILib:| Hash Algorithm  | sha384|
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:Header: 
+
+DEBUG:ddi.DDILib:| cert_chain_ptr              | 0xffffffff  |
+
+DEBUG:ddi.DDILib:| cert_chain_size             | 0x00001800  |
+
+DEBUG:ddi.DDILib:| cert_chain_size_qti         | 0x00000000  |
+
+DEBUG:ddi.DDILib:| code_size                   | 0x00000120  |
+
+DEBUG:ddi.DDILib:| image_id                    | 0x00000000  |
+
+DEBUG:ddi.DDILib:| image_size                  | 0x00001a20  |
+
+DEBUG:ddi.DDILib:| metadata_major_version      | 0x00000000  |
+
+DEBUG:ddi.DDILib:| metadata_major_version_qti  | 0x00000000  |
+
+DEBUG:ddi.DDILib:| metadata_minor_version      | 0x00000000  |
+
+DEBUG:ddi.DDILib:| metadata_minor_version_qti  | 0x00000000  |
+
+DEBUG:ddi.DDILib:| metadata_size               | 0x00000078  |
+
+DEBUG:ddi.DDILib:| metadata_size_qti           | 0x00000000  |
+
+DEBUG:ddi.DDILib:| sig_ptr                     | 0xffffffff  |
+
+DEBUG:ddi.DDILib:| sig_size                    | 0x00000100  |
+
+DEBUG:ddi.DDILib:| sig_size_qti                | 0x00000000  |
+
+DEBUG:ddi.DDILib:| version                     | 0x00000006  |
+
+DEBUG:ddi.DDILib:Metadata:
+
+DEBUG:ddi.DDILib:| anti_rollback_version        | 0x00000000             |
+
+DEBUG:ddi.DDILib:| app_id                       | 0x00000000             |
+
+DEBUG:ddi.DDILib:| debug                        | 0x00000001             |
+
+DEBUG:ddi.DDILib:| hw_id                        | 0x00000000             |
+
+DEBUG:ddi.DDILib:| in_use_soc_hw_version        | 0x00000001             |
+
+DEBUG:ddi.DDILib:| model_id                     | 0x00000000             |
+
+DEBUG:ddi.DDILib:| mrc_index                    | 0x00000000             |
+
+DEBUG:ddi.DDILib:| multi_serial_numbers         | 0x00000000             |
+
+DEBUG:ddi.DDILib:| oem_id                       | 0x00000000             |
+
+DEBUG:ddi.DDILib:| oem_id_independent           | 0x00000000             |
+
+DEBUG:ddi.DDILib:| root_revoke_activate_enable  | 0x00000000             |
+
+DEBUG:ddi.DDILib:| rot_en                       | 0x00000000             |
+
+DEBUG:ddi.DDILib:| soc_vers                     | 0x00006000 0x00006001  |
+
+DEBUG:ddi.DDILib:| sw_id                        | 0x00000025             |
+
+DEBUG:ddi.DDILib:| uie_key_switch_enable        | 0x00000000             |
+
+DEBUG:ddi.DDILib:| use_serial_number_in_signing | 0x00000000             |
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:------------------------------------------------------
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:SUMMARY:
+
+DEBUG:ddi.DDILib:Following actions were performed: "sign, validate"
+
+DEBUG:ddi.DDILib:Output is saved at: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\auto_gen
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:| Idx |   SignId   | Parse | Integrity | Sign | Encrypt |              Validate              |
+
+DEBUG:ddi.DDILib:|     |            |       |           |      |         | Parse | Integrity | Sign | Encrypt |
+
+DEBUG:ddi.DDILib:|-----|------------|-------|-----------|------|---------|-------|-----------|------|---------|
+
+DEBUG:ddi.DDILib:|  1. | xbl_config |   T   |     NA    |  T   |    NA   |   T   |     T     |  T   |    NA   |
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:************* Sign generated Elf ************
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib: Signed image: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose/xbl_config.elf
+
+DEBUG:ddi.DDILib:
+
+DEBUG:ddi.DDILib:*************  Signing Successful   ************
+
+DEBUG:ddi.DDILib: popo1: python GenXBLConfig.py -i C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose\create_xbl_config.json -b C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose -f ELF -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\xbl_config --sectools_directory C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\sectools
+DEBUG:ddi.DDILib: popo2: python GenXBLConfig.py -i C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose\create_xbl_config.json -b C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose -f ELF -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\xbl_config --sectools_directory C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\sectools
+DEBUG:ddi.DDILib: popo3: python GenXBLConfig.py -i C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose\create_xbl_config.json -b C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\decompose -f ELF -o C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\xbl_config --sectools_directory C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\sectools
+DEBUG:ddi.DDILib: Run command successfully
+INFO:ddi:new xbl_config generated at: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\xbl_config.elf
+DEBUG:ddi.FlashInterface:partition: xbl_config_a
+DEBUG:ddi.FlashInterface:filename: xbl_config.elf
+DEBUG:ddi.FlashInterface:start_sector: 902
+DEBUG:ddi.FlashInterface:num_sectors: 32
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--sendimage=xbl_config.elf', '--search_path=C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\compose', '--start_sector=902', '--lun=1', '--num_sectors=32', '--noprompt', '--zlpawarehost=1', '--memoryname=ufs']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xblconfig\
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Looking for file 'xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: WARNING: User specified --num_sectors=32 but file only has 24 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Took       0.00000000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: TARGET SAID: 'WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 1048576 larger than supported 16384'
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: In handleProgram('xbl_config.elf')
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Looking for file 'xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: {<program> FILE: 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\xbl_config.elf'}
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: {<program> (95.89 KB) 24 sectors needed at location 902 on LUN 1}
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: 
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: ==================== {SUCCESS} ========================
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Files used and their paths
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO:   1 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xblconfig\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO:   2 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose\xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: NOTE: There were WARNINGS!! Repeated here, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:User specified --num_sectors=32 but file only has 24 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:NOTE: There were WARNINGS!! Repeated above, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO:      _             (done)
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO:     | |                 
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO:   __| | ___  _ __   ___ 
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO:  / _` |/ _ \| '_ \ / _ \
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: | (_| | (_) | | | |  __/
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO:  \__,_|\___/|_| |_|\___|
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: {All Finished Successfully}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:07:59: INFO: Overall to target  0.094 seconds (1020.11 KBps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xblconfig\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xblconfig\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\compose --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: Run command successfully
+INFO:ddi:new xbl_config flashed to device
+INFO:ddi:
+INFO:ddi:----------  Update DDR partition and clear DDI area
+DEBUG:ddi.FlashInterface:partition: ddr
+DEBUG:ddi.FlashInterface:filename: zeros_5sectors.bin
+DEBUG:ddi.FlashInterface:start_sector: 64
+DEBUG:ddi.FlashInterface:num_sectors: 512
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--convertprogram2read', '--sendimage=zeros_5sectors.bin', '--start_sector=64', '--lun=3', '--num_sectors=512', '--noprompt', '--zlpawarehost=1', '--memoryname=ufs']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Looking for file 'zeros_5sectors.bin'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: WARNING: Couldn't find the file 'zeros_5sectors.bin', returning NULL
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: WARNING: User specified --num_sectors=512 but file only has 512 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Took       0.00000000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: TARGET SAID: 'WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 1048576 larger than supported 16384'
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: In handleRead('zeros_5sectors.bin')
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Looking for file 'zeros_5sectors.bin'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: WARNING: Couldn't find the file 'zeros_5sectors.bin', returning NULL
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: <read> (2048.0KB) 512 sectors from location 64 FILE: 'zeros_5sectors.bin'
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: TARGET SAID: 'INFO: Calling handler for read'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Overall to target  0.016 seconds (125.00 MBps)
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: ===================== SUCCESS =========================
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Files used and their paths
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO:   1 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO:   2 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\zeros_5sectors.bin'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: NOTE: There were WARNINGS!! Repeated here, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:Couldn't find the file 'zeros_5sectors.bin', returning NULL
+
+DEBUG:ddi.FlashInterface:User specified --num_sectors=512 but file only has 512 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Couldn't find the file 'zeros_5sectors.bin', returning NULL
+
+DEBUG:ddi.FlashInterface:NOTE: There were WARNINGS!! Repeated above, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO:      _             (done)
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO:     | |                 
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO:   __| | ___  _ __   ___ 
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO:  / _` |/ _ \| '_ \ / _ \
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: | (_| | (_) | | | |  __/
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO:  \__,_|\___/|_| |_|\___|
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: {All Finished Successfully}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Overall to target  0.094 seconds (21.28 MBps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: Run command successfully
+INFO:ddi:original partition ddr saved at: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\zeros_5sectors.bin
+DEBUG:ddi.FlashInterface:partition: ddr
+DEBUG:ddi.FlashInterface:filename: zeros_5sectors.bin
+DEBUG:ddi.FlashInterface:start_sector: 64
+DEBUG:ddi.FlashInterface:num_sectors: 512
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=ddr_edit.bin --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--sendimage=ddr_edit.bin', '--search_path=C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode', '--start_sector=64', '--lun=3', '--num_sectors=512', '--noprompt', '--zlpawarehost=1', '--memoryname=ufs']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=ddr_edit.bin --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Looking for file 'ddr_edit.bin'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: WARNING: User specified --num_sectors=512 but file only has 512 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Took       0.01600000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: TARGET SAID: 'WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 1048576 larger than supported 16384'
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: In handleProgram('ddr_edit.bin')
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: Looking for file 'ddr_edit.bin'
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: {<program> FILE: 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\ddr_edit.bin'}
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: {<program> (2.00 MB) 512 sectors needed at location 64 on LUN 3}
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:01: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Overall to target  0.047 seconds (42.55 MBps)
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: 
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: ==================== {SUCCESS} ========================
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Files used and their paths
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:   1 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:   2 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\ddr_edit.bin'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: NOTE: There were WARNINGS!! Repeated here, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:User specified --num_sectors=512 but file only has 512 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:NOTE: There were WARNINGS!! Repeated above, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:      _             (done)
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:     | |                 
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:   __| | ___  _ __   ___ 
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:  / _` |/ _ \| '_ \ / _ \
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: | (_| | (_) | | | |  __/
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:  \__,_|\___/|_| |_|\___|
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: {All Finished Successfully}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Overall to target  0.140 seconds (14.29 MBps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=ddr_edit.bin --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=ddr_edit.bin --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=ddr_edit.bin --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: Run command successfully
+INFO:ddi:new ddr partition flashed to device
+INFO:ddi:
+INFO:ddi:----------  Reset Device
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --memoryname=ufs --reset --noprompt
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--memoryname=ufs', '--reset', '--noprompt']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --memoryname=ufs --reset --noprompt 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Took       0.00000000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: TARGET SAID: 'WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 1048576 larger than supported 16384'
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Sending <power>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: TARGET SAID: 'INFO: Calling handler for power'
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Files used and their paths
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:   1 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:      _             (done)
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:     | |                 
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:   __| | ___  _ __   ___ 
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:  / _` |/ _ \| '_ \ / _ \
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: | (_| | (_) | | | |  __/
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO:  \__,_|\___/|_| |_|\___|
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: {All Finished Successfully}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:02: INFO: Overall to target  0.062 seconds (0.00 Bps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --memoryname=ufs --reset --noprompt
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --memoryname=ufs --reset --noprompt
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --memoryname=ufs --reset --noprompt
+DEBUG:ddi.FlashInterface: Run command successfully
+DEBUG:ddi.FlashInterface:Port : 
+INFO:ddi.FlashInterface:Wait until Device is connected....
+DEBUG:ddi.FlashInterface:Port : 
+DEBUG:ddi.FlashInterface:Port : Qualcomm HS-USB QDLoader 9008 (COM4)
+
+DEBUG:ddi.FlashInterface:4
+DEBUG:ddi.FlashInterface:Port : 
+INFO:ddi.FlashInterface:device EDL/QDLoader port 4 is detected...
+INFO:ddi:
+INFO:ddi:----------  Setup Sahara mode
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--nop', '--noprompt']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:22: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:22: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\
+
+DEBUG:ddi.FlashInterface:15:08:22: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:08:22: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:08:22: INFO: Took       0.00000000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:08:22: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:08:22: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	 _____                    
+
+DEBUG:ddi.FlashInterface:	|  ___|                   
+
+DEBUG:ddi.FlashInterface:	| |__ _ __ _ __ ___  _ __ 
+
+DEBUG:ddi.FlashInterface:	|  __| '__| '__/ _ \| '__|
+
+DEBUG:ddi.FlashInterface:	| |__| |  | | | (_) | |   
+
+DEBUG:ddi.FlashInterface:	\____/_|  |_|  \___/|_|  
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:22: {ERROR: XML not formed correctly. Expected a &lt; character at loc 0}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	 _____                    
+
+DEBUG:ddi.FlashInterface:	|  ___|                   
+
+DEBUG:ddi.FlashInterface:	| |__ _ __ _ __ ___  _ __ 
+
+DEBUG:ddi.FlashInterface:	|  __| '__| '__/ _ \| '__|
+
+DEBUG:ddi.FlashInterface:	| |__| |  | | | (_) | |   
+
+DEBUG:ddi.FlashInterface:	\____/_|  |_|  \___/|_|  
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:22: {ERROR: 3. TAG not found or recognized}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	 _____                    
+
+DEBUG:ddi.FlashInterface:	|  ___|                   
+
+DEBUG:ddi.FlashInterface:	| |__ _ __ _ __ ___  _ __ 
+
+DEBUG:ddi.FlashInterface:	|  __| '__| '__/ _ \| '__|
+
+DEBUG:ddi.FlashInterface:	| |__| |  | | | (_) | |   
+
+DEBUG:ddi.FlashInterface:	\____/_|  |_|  \___/|_|  
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:22: {ERROR: 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	There is a chance your target is in SAHARA mode!!
+
+DEBUG:ddi.FlashInterface:	There is a chance your target is in SAHARA mode!!
+
+DEBUG:ddi.FlashInterface:	There is a chance your target is in SAHARA mode!!
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:This can mean
+
+DEBUG:ddi.FlashInterface:	1. You forgot to send DeviceProgrammer first (i.e. QSaharaServer.exe -s 13:prog_emmc_firehose_8994_lite.mbn)
+
+DEBUG:ddi.FlashInterface:	2. OR, you did send DeviceProgrammer, but it has crashed and/or is not correct for this target
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Regardless this program speaks FIREHOSE protocol and your target is speaking SAHARA protcol, so this will not work
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --nop --noprompt
+WARNING:ddi.FlashInterface:[WARNING] Run command end with errorcheck=True
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\QSaharaServer.exe -k -u 4 -s 13:prog_firehose_lite.elf -b C:\Users\146688\Hello3\boot_images\QcomPkg\SocPkg\8250\Bin\LAA\RELEASE\
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\QSaharaServer.exe', '-k', '-u', '4', '-s', '13:prog_firehose_lite.elf', '-b', 'C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\SocPkg\\8250\\Bin\\LAA\\RELEASE\\']
+DEBUG:ddi.FlashInterface:Binary build date: Sep  7 2018 @ 20:25:00
+
+DEBUG:ddi.FlashInterface:QSAHARASERVER CALLED LIKE THIS: 'C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\QSaharaServer.ex'Current working dir: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode
+
+DEBUG:ddi.FlashInterface:Sahara mappings:
+
+DEBUG:ddi.FlashInterface:2: amss.mbn
+
+DEBUG:ddi.FlashInterface:6: apps.mbn
+
+DEBUG:ddi.FlashInterface:8: dsp1.mbn
+
+DEBUG:ddi.FlashInterface:10: dbl.mbn
+
+DEBUG:ddi.FlashInterface:11: osbl.mbn
+
+DEBUG:ddi.FlashInterface:12: dsp2.mbn
+
+DEBUG:ddi.FlashInterface:16: efs1.mbn
+
+DEBUG:ddi.FlashInterface:17: efs2.mbn
+
+DEBUG:ddi.FlashInterface:20: efs3.mbn
+
+DEBUG:ddi.FlashInterface:21: sbl1.mbn
+
+DEBUG:ddi.FlashInterface:22: sbl2.mbn
+
+DEBUG:ddi.FlashInterface:23: rpm.mbn
+
+DEBUG:ddi.FlashInterface:25: tz.mbn
+
+DEBUG:ddi.FlashInterface:28: dsp3.mbn
+
+DEBUG:ddi.FlashInterface:29: acdb.mbn
+
+DEBUG:ddi.FlashInterface:30: wdt.mbn
+
+DEBUG:ddi.FlashInterface:31: mba.mbn
+
+DEBUG:ddi.FlashInterface:13: prog_firehose_lite.elf
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:22: Requested ID 13, file: "C:\Users\146688\Hello3\boot_images\QcomPkg\SocPkg\8250\Bin\LAA\RELEASE\prog_firehose_lite.elf"
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:23: 697812 bytes transferred in 0.110000 seconds (6.0499MBps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:23: File transferred successfully
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:23: Sahara protocol completed
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\QSaharaServer.exe -k -u 4 -s 13:prog_firehose_lite.elf -b C:\Users\146688\Hello3\boot_images\QcomPkg\SocPkg\8250\Bin\LAA\RELEASE\
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\QSaharaServer.exe -k -u 4 -s 13:prog_firehose_lite.elf -b C:\Users\146688\Hello3\boot_images\QcomPkg\SocPkg\8250\Bin\LAA\RELEASE\
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\QSaharaServer.exe -k -u 4 -s 13:prog_firehose_lite.elf -b C:\Users\146688\Hello3\boot_images\QcomPkg\SocPkg\8250\Bin\LAA\RELEASE\
+DEBUG:ddi.FlashInterface: Run command successfully
+INFO:ddi:
+INFO:ddi:----------  Read DDI command result
+DEBUG:ddi.FlashInterface:partition: ddr
+DEBUG:ddi.FlashInterface:filename: zeros_5sectors.bin
+DEBUG:ddi.FlashInterface:start_sector: 64
+DEBUG:ddi.FlashInterface:num_sectors: 512
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--convertprogram2read', '--sendimage=zeros_5sectors.bin', '--start_sector=64', '--lun=3', '--num_sectors=512', '--noprompt', '--zlpawarehost=1', '--memoryname=ufs']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Looking for file 'zeros_5sectors.bin'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: WARNING: Couldn't find the file 'zeros_5sectors.bin', returning NULL
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: WARNING: User specified --num_sectors=512 but file only has 512 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Took       0.00000000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: Binary build date: Jan  5 2022 @ 10:46:14'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: Binary build date: Jan  5 2022 @ 10:46:14
+
+DEBUG:ddi.FlashInterface:'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: Chip serial num: 1004633579 (0x3be17deb)'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: Supported Functions (15):'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: program'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: read'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: nop'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: patch'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: setbootablestoragedrive'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: erase'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: power'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: firmwarewrite'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: getstorageinfo'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: benchmark'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: emmc'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: ufs'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: fixgpt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: getsha256digest'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: End of supported functions 15'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 1048576 larger than supported 16384'
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: In handleRead('zeros_5sectors.bin')
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Looking for file 'zeros_5sectors.bin'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: WARNING: Couldn't find the file 'zeros_5sectors.bin', returning NULL
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: <read> (2048.0KB) 512 sectors from location 64 FILE: 'zeros_5sectors.bin'
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: TARGET SAID: 'INFO: Calling handler for read'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Overall to target  0.032 seconds (62.50 MBps)
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: ===================== SUCCESS =========================
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Files used and their paths
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO:   1 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO:   2 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\zeros_5sectors.bin'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: NOTE: There were WARNINGS!! Repeated here, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:Couldn't find the file 'zeros_5sectors.bin', returning NULL
+
+DEBUG:ddi.FlashInterface:User specified --num_sectors=512 but file only has 512 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Couldn't find the file 'zeros_5sectors.bin', returning NULL
+
+DEBUG:ddi.FlashInterface:NOTE: There were WARNINGS!! Repeated above, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO:      _             (done)
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO:     | |                 
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO:   __| | ___  _ __   ___ 
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO:  / _` |/ _ \| '_ \ / _ \
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: | (_| | (_) | | | |  __/
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO:  \__,_|\___/|_| |_|\___|
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: {All Finished Successfully}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:24: INFO: Overall to target  0.297 seconds (6.73 MBps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --convertprogram2read --sendimage=zeros_5sectors.bin --start_sector=64 --lun=3 --num_sectors=512 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: Run command successfully
+INFO:ddi:read ddr partition from device at C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\zeros_5sectors.bin
+DEBUG:ddi.FlashInterface:partition: xbl_config_a
+DEBUG:ddi.FlashInterface:filename: xbl_config.elf
+DEBUG:ddi.FlashInterface:start_sector: 902
+DEBUG:ddi.FlashInterface:num_sectors: 32
+INFO:ddi.FlashInterface: Running cmd: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface:['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\storage\\fh_loader\\fh_loader.exe', '--port=\\\\.\\COM4', '--sendimage=xbl_config.elf', '--search_path=C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode', '--start_sector=902', '--lun=1', '--num_sectors=32', '--noprompt', '--zlpawarehost=1', '--memoryname=ufs']
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Base Version: 19.06.10.18.44
+
+DEBUG:ddi.FlashInterface:Binary build date: Jun 10 2019 @ 18:44:32
+
+DEBUG:ddi.FlashInterface:Incremental Build version: 19.06.10.18.44.32
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs 
+
+DEBUG:ddi.FlashInterface:************************************************
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Current working dir (cwd): C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Showing network mappings to allow debugging
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Looking for file 'xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: WARNING: User specified --num_sectors=32 but file only has 32 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: User wants to talk to port '\\.\COM4'
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Took       0.00000000 seconds to open port
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Sending <configure>
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: TARGET SAID: 'INFO: Storage type set to value UFS'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: TARGET SAID: 'WARN: NAK: MaxPayloadSizeToTargetInBytes sent by host 1048576 larger than supported 16384'
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: In handleProgram('xbl_config.elf')
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Looking for file 'xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: {<program> FILE: 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xbl_config.elf'}
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: {<program> (128.00 KB) 32 sectors needed at location 902 on LUN 1}
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: TARGET SAID: 'INFO: Calling handler for program'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Time measurement too small --- Overall to target 0.0 seconds (0Bps)
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: 
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: ==================== {SUCCESS} ========================
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: =======================================================
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Files used and their paths
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO:   1 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO:   2 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\xbl_config.elf'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:	                         (_)            
+
+DEBUG:ddi.FlashInterface:	__      ____ _ _ __ _ __  _ _ __   __ _ 
+
+DEBUG:ddi.FlashInterface:	\ \ /\ / / _` | '__| '_ \| | '_ \ / _` |
+
+DEBUG:ddi.FlashInterface:	 \ V  V / (_| | |  | | | | | | | | (_| |
+
+DEBUG:ddi.FlashInterface:	  \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |
+
+DEBUG:ddi.FlashInterface:	                                   __/ |
+
+DEBUG:ddi.FlashInterface:	                                  |___/ 
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: NOTE: There were WARNINGS!! Repeated here, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:User specified --num_sectors=32 but file only has 32 sectors. **Ignoring --num_sectors
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:NOTE: There were WARNINGS!! Repeated above, but please see log for more detail
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: ==============================================================
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO:      _             (done)
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO:     | |                 
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO:   __| | ___  _ __   ___ 
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO:  / _` |/ _ \| '_ \ / _ \
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: | (_| | (_) | | | |  __/
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO:  \__,_|\___/|_| |_|\___|
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: {All Finished Successfully}
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:15:08:25: INFO: Overall to target  0.094 seconds (1.33 MBps)
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Writing log to 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt', might take a minute
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface:Log is 'C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\port_trace.txt'
+
+DEBUG:ddi.FlashInterface:
+
+DEBUG:ddi.FlashInterface: popo1: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo2: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: popo3: C:\Users\146688\Hello3\boot_images\QcomPkg\Tools\storage\fh_loader\fh_loader.exe --port=\\.\COM4 --sendimage=xbl_config.elf --search_path=C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode --start_sector=902 --lun=1 --num_sectors=32 --noprompt --zlpawarehost=1 --memoryname=ufs
+DEBUG:ddi.FlashInterface: Run command successfully
+INFO:ddi:new xbl_config flashed to device
+DEBUG:ddi.DDILib:Output Header Size: 8
+DEBUG:ddi.DDILib:Name: Test Status
+DEBUG:ddi.DDILib:Value: 1
+DEBUG:ddi.DDILib:Name: Memory Type
+DEBUG:ddi.DDILib:Value: 8
+DEBUG:ddi.DDILib:Name: Plot Record Packet
+DEBUG:ddi.DDILib:Value: 2940
+DEBUG:ddi.DDILib: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\plot.csv is not present , skip delete
+INFO:ddi:test_output.json generated at: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\test_output.json
+INFO:ddi:
+DEBUG:ddi:end of script: argv: %s['C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\DDI\\ddi.py', '-p', 'C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\Tools\\DDI\\ddi_protocol_config.xml', '--target=SM8250', '--flash=ufs', '-v', 'DEBUG', '-o', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode', 'full', '-l', 'C:\\Users\\146688\\Hello3\\boot_images\\QcomPkg\\SocPkg\\8250\\Bin\\LAA\\RELEASE\\prog_firehose_lite.elf', '-x', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\Input\\partition.xml', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\Input\\rawprogram1.xml', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\Input\\rawprogram3.xml', '-t', 'C:\\QUALCOMM\\QDUTT\\DDI\\QCS8250_LP5_ufs_standardMode\\test_config.json', '--port', '4']
+INFO:ddi:output generated at: C:\QUALCOMM\QDUTT\DDI\QCS8250_LP5_ufs_standardMode\run_output
+INFO:ddi:----------  Finish DDI command
